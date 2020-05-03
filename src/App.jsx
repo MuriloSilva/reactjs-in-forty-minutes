@@ -1,13 +1,12 @@
 import React from 'react'
-import First from './components/First'
+import First from './components/basics/First'
 import Card from './components/layout/Card'
-import WithParameters from './components/WithParameters'
-import WithChildrens from './components/WithChildrens.jsx'
+import WithParameters from './components/basics/WithParameters'
+import WithChildrens from './components/basics/WithChildrens'
 import './App.css'
-import Repetition from './components/layout/Repetition'
-import Conditional from './components/Conditional'
-import If from './components/If'
-import ConditionalWithIf from './components/ConditionalWithIf'
+import Repetition from './components/basics/Repetition'
+import Conditional from './components/basics/Conditional'
+import ConditionalWithIf from './components/basics/ConditionalWithIf'
 
 export default props =>
     <div className="App">
