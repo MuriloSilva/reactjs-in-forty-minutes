@@ -3,6 +3,6 @@ import React from 'react'
 export default () =>
     <React.Fragment>
         <div>
-            <h1>Primeiro Componente</h1>            
+            <h3>Primeiro Componente</h3>
         </div>
     </React.Fragment>

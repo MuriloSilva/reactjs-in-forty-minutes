@@ -2,7 +2,7 @@ import React from 'react'
 
 export default props => 
     <React.Fragment>
-        <h2>Os Filhos</h2>
+        <h3>Os Filhos</h3>
         <div>
             {props.children}
         </div>

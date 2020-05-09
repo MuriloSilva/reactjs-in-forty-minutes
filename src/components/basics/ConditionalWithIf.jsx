@@ -3,7 +3,7 @@ import If from './If'
 
 export default ({num}) => 
     <React.Fragment>
-        <h2>O número {num} é: </h2>
+        <h3>O número {num} é: </h3>
         <If condition={num % 2 === 0}>
             <span>O número é par</span>
         </If>

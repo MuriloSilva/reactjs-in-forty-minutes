@@ -9,7 +9,7 @@ const getProductItens = () =>
 
 export default props => 
     <div>
-        <h2>Repetição</h2>
+        <h3>Repetição</h3>
         <ul>
             {getProductItens()}
         </ul>
